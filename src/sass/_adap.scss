@@ -1,0 +1,30 @@
+@media (min-width: 310px) and (max-width: 1000px) {
+  h1,
+  p,
+  b,
+  img,
+  .article__description,
+  ol {
+    width: 95%;
+    display:flex;
+    margin: 0 auto;
+  }
+  .article__button,
+  .article__button2,
+  .comment{
+    margin-left:5%;
+    width: 90%;
+   
+  }
+  .comment{
+    margin-left:5%;
+    margin-right: 5%;
+   
+  }
+}
+@media (min-width: 310px) and (max-width: 600px) {
+  h1{
+    font-size: 25px;
+  }
+  
+}
