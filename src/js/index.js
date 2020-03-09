@@ -12,7 +12,7 @@ var modal = document.querySelector(".modal");
 var btn = document.querySelector(".article__button");
 var span = document.getElementsByClassName("close")[0];
 var sbm = document.querySelector(".form__button");
-btn.toggle.onclick = function () {
+btn.onclick = function () {
     modal.style.display = "block";
 }
 
