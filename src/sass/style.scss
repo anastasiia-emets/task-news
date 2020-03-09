@@ -2,15 +2,23 @@
 @import "../components/article/article";
 @import "../components/comment/comment";
 @import "adap";
-html{
-  height: 100vh; 
+html {
+  height: 100vh;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   height: 100%;
- 
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
 }
 
+button:hover {
+  opacity: 0.8;
+}
+a:hover {
+  opacity: 0.8;
+}
+button:focus{
+  outline:none;
+}

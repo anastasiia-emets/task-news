@@ -21,10 +21,16 @@
     margin-right: 5%;
    
   }
+  .modal-content{
+    width:60%;
+  }
 }
 @media (min-width: 310px) and (max-width: 600px) {
   h1{
     font-size: 25px;
+  }
+  .modal-content{
+    width:80%;
   }
   
 }

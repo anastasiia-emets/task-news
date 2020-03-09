@@ -32,6 +32,12 @@ b {
   margin: 0 auto;
   margin-top: 5px;
 }
+.article__list-header{
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left:20%;
+ 
+}
 li {
   text-align: left;
   font-weight: normal;
@@ -119,7 +125,7 @@ span {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 30%;
 }
 
 .close {
