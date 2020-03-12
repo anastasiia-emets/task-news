@@ -1,6 +1,8 @@
 @import "variables";
 @import "../components/article/article";
 @import "../components/comment/comment";
+@import "../components/header/header";
+@import "../components/footer/footer";
 @import "adap";
 html {
   height: 100vh;
@@ -10,15 +12,17 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: white;
   font-family: Arial, sans-serif;
 }
 
 button:hover {
   opacity: 0.8;
 }
-a:hover {
-  opacity: 0.8;
-}
+
 button:focus{
   outline:none;
+}
+a:hover{
+  text-decoration: underline;
 }

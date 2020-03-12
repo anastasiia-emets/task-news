@@ -1,0 +1,224 @@
+.header {
+  background-color: white;
+  &-item1 {
+    display: flex;
+    background-color: rgb(243, 241, 241);
+    justify-content: space-between;
+    padding: 0% 10%;
+  }
+  &__languages {
+    display: flex;
+  }
+  &-item1__links {
+    margin-top: 5px;
+  }
+  &-item2__icon {
+    width: 36px;
+    height: 28px;
+  }
+  &__language {
+    padding: 5px 15px 5px 0;
+    color: #666;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__language_active {
+    color: #c60304;
+  }
+  &-item2 {
+    background-color: rgb(198, 3, 4);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 70px;
+    padding: 0% 10%;
+  }
+  &__line {
+    height: 30px;
+    width: 1px;
+    background-color: #a40000;
+    border-right: #e01718 1px solid;
+  }
+  &-item2__city {
+    color: #fff;
+    background-color: transparent;
+    padding: 0 0 0 4px;
+    font-size: 11px;
+    height: 30px;
+    width: 1px;
+    padding-left: 15px;
+    border-right: #e01718 1px solid;
+  }
+  &__icon-search {
+    width: 30px;
+    height: 30px;
+    background: url(../../images/icon-sprite.png) no-repeat 7px -44px;
+  }
+  &__dropdowns {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 27px;
+    font-size: 11px;
+  }
+  &__bill,
+  &__text,
+  &__value {
+    color: white;
+    font-size: 11px;
+    padding-left: 10px;
+  }
+  &__nav {
+    display: flex;
+  }
+  &__menu-search {
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    font-weight: normal;
+  }
+  &__icon {
+    margin-top: -8px;
+    margin-left: 5px;
+  }
+  &__city {
+    color: white;
+    font-size: 11px;
+  }
+  &__menu-author {
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    font-weight: normal;
+  }
+  &__icon-author {
+    width: 30px;
+    height: 30px;
+    background: url(../../images/icon-sprite.png) no-repeat 6px -15px;
+  }
+  &-item2__logo {
+    width: 282px;
+    height: 31px;
+    margin-top: 20px;
+  }
+  &__line {
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background-color: #a40000;
+    border-right: #e01718 1px solid;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 19px;
+    content: "";
+  }
+
+  &-item1__link {
+    padding: 5px 15px 5px 0;
+    color: #666;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  &__icon {
+    width: 36px;
+    height: 28px;
+  }
+  &__menu-search {
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  &__icon-search {
+    margin-top: 18px;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+  &__menu-author {
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  &__icon-author {
+    margin-top: 18px;
+    cursor: pointer;
+  }
+  &-item3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 8%;
+    background-color: rgb(243, 241, 241);
+
+    &__link {
+      border: 1px solid rgb(218, 216, 216);
+      font-size: 14px;
+      padding: 0px 15px;
+      line-height: 35px;
+      text-transform: uppercase;
+      color: #666;
+      padding: 0 14px 0 14px;
+      cursor: pointer;
+      &_hover {
+        background-color: #fff;
+      }
+    }
+  }
+  &-item4 {
+    padding: 0% 10%;
+    background-color: white;
+    border-bottom: 1px solid #d9d9d9;
+
+    &__text {
+      font-size: 11px;
+      line-height: 28px;
+      text-transform: uppercase;
+      color: #666;
+      margin-right: 15px;
+    }
+    &__text_hover {
+      color: #c60304;
+    }
+  }
+  &-item5 {
+    margin: 10px 10%;
+    background-color: white;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    &__icon {
+      width: 14px;
+      height: 10px;
+      margin-left: 5px;
+      margin-top: 5px;
+      background: url(../../images/icon-sprite.png) no-repeat 1px -210px;
+    }
+    &__text {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #666;
+      font-weight: normal;
+      &_hover {
+        color: #c60304;
+      }
+    }
+    &__text2 {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #666;
+      margin-left: 10px;
+      margin-top: 3px;
+    }
+    &__links1 {
+      display: flex;
+    }
+  }
+}
