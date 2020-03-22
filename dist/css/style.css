@@ -117,7 +117,7 @@ ol b {
   position: relative;
   width: 22px;
   height: 22px;
-  background: url(../../images/icon-sprite.png) no-repeat 5px -478px;
+  background: url(../images/icon-sprite.png) no-repeat 5px -478px;
 }
 
 post-item__statistic {
@@ -164,7 +164,7 @@ post-item__statistic {
   width: 15px;
   height: 14px;
   margin-right: 3px;
-  background: url(../../images/icon-sprite.png) no-repeat -143px 1px;
+  background: url(../images/icon-sprite.png) no-repeat -143px 1px;
 }
 
 .post-item__statistic {
@@ -178,7 +178,7 @@ post-item__statistic {
   height: 14px;
   margin-left: 10px;
   margin-right: 3px;
-  background: url(../../images/icon-sprite.png) no-repeat -142px -19px;
+  background: url(../images/icon-sprite.png) no-repeat -142px -19px;
 }
 
 .article__icon2 {
@@ -188,7 +188,7 @@ post-item__statistic {
   margin-right: 40px;
   position: relative;
   background-color: #666;
-  background-image: url(../../images/icon-sprite.png);
+  background-image: url(../images/icon-sprite.png);
   background-repeat: no-repeat;
   cursor: pointer;
   background-position: -61px -477px;
@@ -296,7 +296,7 @@ span {
   height: 30px;
   margin-top: 10px;
   background-color: #666;
-  background: url(../../images/face.png) no-repeat 100%;
+  background: url(../images/face.png) no-repeat 100%;
 }
 
 .article__icon2 {
@@ -307,19 +307,19 @@ span {
   width: 55px;
   height: 20px;
   margin-top: 15px;
-  background: url(../../images/twitt.png) no-repeat 100%;
+  background: url(../images/twitt.png) no-repeat 100%;
 }
 
 .article__icon3 {
   width: 22px;
   height: 22px;
-  background: url(../../images/icon-sprite.png) no-repeat -143px 1px;
+  background: url(../images/icon-sprite.png) no-repeat -143px 1px;
 }
 
 .article__icon4 {
   width: 22px;
   height: 22px;
-  background: url(../../images/icon-sprite.png) no-repeat -142px -19px;
+  background: url(../images/icon-sprite.png) no-repeat -142px -19px;
 }
 
 .article__text {
@@ -461,7 +461,7 @@ li {
   height: 10px;
   margin-top: 5px;
   margin-right: 1px;
-  background: url(../../images/icon-sprite.png) no-repeat -64px -352px;
+  background: url(../images/icon-sprite.png) no-repeat -64px -352px;
 }
 
 .article__comments_count {
@@ -716,7 +716,7 @@ a:hover {
 .header__icon-search {
   width: 30px;
   height: 30px;
-  background: url(../../images/icon-sprite.png) no-repeat 7px -44px;
+  background: url(../images/icon-sprite.png) no-repeat 7px -44px;
 }
 
 .header__dropdowns {
@@ -771,7 +771,7 @@ a:hover {
 .header__icon-author {
   width: 30px;
   height: 30px;
-  background: url(../../images/icon-sprite.png) no-repeat 6px -15px;
+  background: url(../images/icon-sprite.png) no-repeat 6px -15px;
 }
 
 .header-item2__logo {
@@ -899,7 +899,7 @@ a:hover {
   height: 10px;
   margin-left: 5px;
   margin-top: 5px;
-  background: url(../../images/icon-sprite.png) no-repeat 1px -210px;
+  background: url(../images/icon-sprite.png) no-repeat 1px -210px;
 }
 
 .header-item5__text {
@@ -1068,7 +1068,7 @@ a:hover {
   margin-right: 4px;
   -webkit-filter: invert(1);
           filter: invert(1);
-  background: url(../../images/icon-sprite.png) no-repeat -27px -315px;
+  background: url(../images/icon-sprite.png) no-repeat -27px -315px;
 }
 
 .footer__face-link {
@@ -1112,7 +1112,7 @@ a:hover {
   margin-right: 4px;
   -webkit-filter: invert(1);
           filter: invert(1);
-  background: url(../../images/icon-sprite.png) no-repeat -95px -315px;
+  background: url(../images/icon-sprite.png) no-repeat -95px -315px;
 }
 
 .footer__twitter-link {
@@ -1133,7 +1133,7 @@ a:hover {
   margin-right: 4px;
   -webkit-filter: invert(1);
           filter: invert(1);
-  background: url(../../images/icon-sprite.png) no-repeat -134px -315px;
+  background: url(../images/icon-sprite.png) no-repeat -134px -315px;
 }
 
 .footer__google-link {
@@ -1154,7 +1154,7 @@ a:hover {
   margin-right: 4px;
   -webkit-filter: invert(1);
           filter: invert(1);
-  background: url(../../images/icon-sprite.png) no-repeat -171px -318px;
+  background: url(../images/icon-sprite.png) no-repeat -171px -318px;
 }
 
 .footer__rss-link {
@@ -1175,7 +1175,7 @@ a:hover {
   margin-right: 4px;
   -webkit-filter: invert(1);
           filter: invert(1);
-  background: url(../../images/icon-sprite.png) no-repeat -208px -316px;
+  background: url(../images/icon-sprite.png) no-repeat -208px -316px;
 }
 
 .footer__email-link {
