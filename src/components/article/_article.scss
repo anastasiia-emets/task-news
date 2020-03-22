@@ -11,6 +11,7 @@ img {
   margin: 0 auto;
   width: 610px;
 }
+
 .article__img2 {
 
   max-width: 610px;
@@ -371,7 +372,7 @@ li{
     height: 10px;
     margin-top:5px;
     margin-right: 1px;
-    background: url(../../images/icon-sprite.png) no-repeat -64px -352px;
+    background: url(../images/icon-sprite.png) no-repeat -64px -352px;
 }
 .article__comments_count {
   font-size: 10px;
@@ -380,7 +381,14 @@ li{
   font-weight: normal;
 }
 .aside__column{
-  display:flex;
+  display:inline-block;
+  margin-left:10px;
+}
+.aside__column::before{
+  content: '';
+  width: 14px;
+  height: 10px;
+  background: url(../images/icon-sprite.png) no-repeat -64px -352px;
 }
 a:hover{
   text-decoration: underline !important;
