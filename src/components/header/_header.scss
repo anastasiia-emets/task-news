@@ -1,10 +1,24 @@
+.wrapper-header-item1{
+  background-color: rgb(243, 241, 241);
+}
+.wrapper-header-item2{
+  background-color: rgb(198, 3, 4);
+}
+.wrapper-header-item3{
+  background-color: rgb(243, 241, 241);
+}
+.wrapper-header-item4{
+  background-color: white;
+}
 .header {
   background-color: white;
   &-item1 {
     display: flex;
     background-color: rgb(243, 241, 241);
     justify-content: space-between;
-    padding: 0% 9%;
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
   }
   &__languages {
     display: flex;
@@ -38,7 +52,9 @@
     display: flex;
     justify-content: space-between;
     height: 70px;
-    padding: 0% 8%;
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
   }
   &__line {
     height: 30px;
@@ -153,17 +169,23 @@
   &-item3 {
     display: flex;
     justify-content: space-around;
-    padding: 0% 8%;
+
     background-color: rgb(243, 241, 241);
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
 
     &__link {
       border: 1px solid rgb(218, 216, 216);
-      font-size: 12px;
-      padding: 0px 15px;
+      font-size: 10px;
+
       line-height: 35px;
       text-transform: uppercase;
       color: #666;
-      padding: 0 14px 0 14px;
+      padding: 0 2px 0 2px;
+      width: calc(100%/10);
+      white-space: nowrap;
+      text-align: center;
       cursor: pointer;
       &_hover {
         background-color: #fff;
@@ -171,10 +193,12 @@
     }
   }
   &-item4 {
-    padding: 0% 8%;
+  
     background-color: white;
     border-bottom: 1px solid #d9d9d9;
-
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
     &__text {
       font-size: 11px;
       line-height: 28px;
@@ -193,6 +217,9 @@
     justify-content: space-between;
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
     display: flex;
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
     &__icon {
       width: 14px;
       height: 10px;
@@ -224,6 +251,7 @@
 .header-item3__link {
   width: (100%/10);
   white-space: nowrap;
+  font-weight: bold;
   text-align: center;
 }
 .header-item2__line {
@@ -255,4 +283,17 @@
 }
 .header-item2{
   color:white;
+}
+.header__drop{
+  display:flex;
+ 
+}
+.header-item3__link_hover {
+  color:rgb(198, 3, 4) !important;
+}
+.header-item4__text_hover{
+  color:rgb(198, 3, 4) !important;
+}
+.header-item5__text_hover{
+  color:rgb(198, 3, 4) !important;
 }
