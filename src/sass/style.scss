@@ -8,6 +8,42 @@ html {
   height: 100vh;
 }
 
+.main-wrapper__button {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 40%;
+  width: 27px;
+  height: 157px;
+  z-index: 10;
+  background: url(../images/button.png) no-repeat left top #c60304;
+  text-decoration: none;
+  color: #1a1a1a;
+  &:hover {
+    transform: translateX(-3px);
+    width: 30px;
+  }
+}
+
+.main-wrapper__button2 {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 20px;
+  float: right;
+  filter: alpha(opacity=20);
+  -moz-opacity: 0.2;
+  opacity: 0.2;
+  background: url(../images/icon-sprite.png) no-repeat scroll -465px -465px transparent;
+  z-index: 500;
+  &:hover {
+    opacity: 0.7;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -20,9 +56,13 @@ button:hover {
   opacity: 0.8;
 }
 
-button:focus{
-  outline:none;
+button:focus {
+  outline: none;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
+}
+.h1 {
+  width: 610px;
+  font-size: 12px;
 }

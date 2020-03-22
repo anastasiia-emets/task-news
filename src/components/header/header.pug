@@ -10,19 +10,40 @@
             a.header-item1__link(href="") ЛОНГРИДЫ
             a.header-item1__link(href="") СПЕЦПРОЕКТЫ
     .header-item2
+        .header-item2__line
         .header__dropdowns
-            a.header__city КИЕВ
+        
+            .dropdown
+                button#dropdownMenuButton.header__city(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                    | КИЕВ
+                .dropdown-menu(aria-labelledby='dropdownMenuButton')
+                    a.dropdown-item(href='#') Житомир
+                    a.dropdown-item(href='#') Львів
+                    a.dropdown-item(href='#') Одеса
             img.header__icon(src="images/weather.png" alt="")   
-            .header__weather +7°     
-            a.header__bill USD
+            .header__weather +7° 
+        .header-item2__line
+        .header__dropdowns
+          
+            .dropdown
+                button#dropdownMenuButton.header__city(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                    | USD
+                .dropdown-menu(aria-labelledby='dropdownMenuButton')
+                    a.dropdown-item(href='#') USD = 24.8351
+                    a.dropdown-item(href='#') EUR = 27.5205
+                    a.dropdown-item(href='#') RUB = 0.3811
             .header__text =
             .header__value 24.835
         img.header-item2__logo(src="images/logo.png" alt="")
+        .header-item2__line
         .header__nav
             a.header__menu-search ПОИСК 
             .header__icon-search
+        .header-item2__line
+        .header__nav
             a.header__menu-author АВТОРИЗАЦИЯ
             .header__icon-author
+        .header-item2__line
     .header-item3
         a.header-item3__link ГЛАВНАЯ
         a.header-item3__link УКРАИНА
